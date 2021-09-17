@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: rgb(206, 206, 206);
+}
+
+body{
+    overflow: hidden;
+}
+
+.inner1{
+    height: 88vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+}
+
+.msg-container{
+    height: fit-content;
+    background-color: white;
+    display: flex;
+}
+
+.dp{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: red;
+    margin-right: 5px;
+}
+
+.msg{
+    height: fit-content;
+    font-size: small;
+    margin-right: 5px;
+    border-radius: 7px 7px 7px 0;
+}
+
+.msgus{
+    height: fit-content;
+    font-size: small;
+    margin-right: 5px;
+    border-radius: 7px 7px 0px 7px;
+}
+
+.inner2{
+    padding: 0;
+    display: flex;
+    height: 5vh;
+    align-items: center;
+    background-color: darkgray;
+    justify-content: space-around;
+}
+
+.msg-box{
+    padding: 0;
+    height: 3vh;
+    width: 65vw;
+}
+ .msg-box input{
+     background-color: white;
+     width: 65vw;
+     height: 3vh;
+     border-style: none;
+ }
+
+.send{
+    padding: 0;
+}
+
+.send button{
+    padding: 0;
+    background-color: red;
+    height: 3vh;
+    width: 20vw;
+    border-style: none;
+    color: white;
+}
+
+.send button:hover{
+    cursor: pointer;
+}
+
+#user-msg{
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+#client-msg{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.ut{
+    font-size: smaller;
+    text-align: right;
+}
+
+.ct{
+    font-size: smaller;
+}
